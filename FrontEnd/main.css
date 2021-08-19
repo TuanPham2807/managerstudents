@@ -1,0 +1,1290 @@
+    body a:hover {
+        text-decoration: none;
+        color: rgb(7, 163, 7);
+        font-weight: bold;
+    }
+    
+    ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    li {
+        list-style: none;
+    }
+    /*     ---HEADER open---       */
+    /*  HEADER TOP  */
+    
+    .header {
+        background-image: url(image/banner_GreenFood.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .form__input {
+        margin-top: 30px;
+        position: relative;
+    }
+    
+    .header__top input[class="search__input"] {
+        width: 460px;
+        height: 40px;
+        position: absolute;
+        outline: none;
+        border: 4px solid rgb(35, 167, 2);
+        border-radius: 5px;
+    }
+    
+    .header__top input[class="search__submit"] {
+        width: 55px;
+        height: 55px;
+        position: relative;
+        left: 440px;
+        top: -7px;
+        background-color: rgb(5, 158, 5);
+        outline: none;
+        border: 0px solid black;
+        border-radius: 30px;
+    }
+    
+    .header__top .form__input form i {
+        color: white;
+        position: relative;
+        left: 396px;
+        top: -24px;
+        font-size: 26px;
+    }
+    
+    .user__shopping button {
+        border-radius: 50px;
+        padding: 10px 10px;
+        margin-left: 20px;
+        float: right;
+    }
+    
+    .header__top img {
+        width: 265px;
+        height: 100px;
+    }
+    
+    .login__button {
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    
+    .login__button li {
+        list-style: none;
+        padding-left: 35px;
+    }
+    
+    .login__button li a {
+        text-decoration: none;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .user__shopping {
+        margin-top: 22px;
+        margin-left: 0px;
+        padding: 0px;
+    }
+    /*   HEADER BOTTOM    */
+    
+    .header__bottom div {
+        align-items: center;
+    }
+    
+    .header__bottom button[name="product__list"] {
+        padding: 5px 23px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .menu__header ul {
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu__header li {
+        list-style: none;
+    }
+    
+    .menu__header li a {
+        font-weight: 600;
+        color: black;
+        font-size: 16px;
+    }
+    
+    .menu__header li i {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    
+    .headphone {
+        font-size: 19px;
+    }
+    
+    .headphone svg {
+        color: rgb(6, 160, 6);
+    }
+    
+    .headphone a {
+        font-size: 27px;
+        font-family: lucida;
+        /* color: red; */
+    }
+    /*     ---HEADER close---      */
+    /* HEADER open */
+    /* TRANG CHỦ */
+    
+    .main__home__page {
+        padding: 0px;
+        margin-top: 30px;
+    }
+    
+    .main__home__page div button[name="btn-success"] {
+        margin: 0px;
+    }
+    
+    .main__home__page ul img {
+        width: 245px;
+        height: 200px;
+        padding: 10px 15px 5px 15px;
+    }
+    
+    .hover__product__item i {
+        font-size: 33px;
+        color: white;
+        padding: 10px;
+    }
+    
+    .home__page__product {
+        padding: 0px;
+    }
+    
+    .picture__home ul {
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .picture__home ul li {
+        list-style: none;
+        margin: 10px 0px;
+    }
+    
+    .picture__home ul img {
+        width: 559px;
+        height: 255px;
+        padding: 0px;
+        border-radius: 10px;
+    }
+    /* GIỎ HÀNG */
+    
+    .shopping {
+        margin-top: 60px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .shopping__normal button {
+        border: 2px rgb(7, 153, 7) solid;
+        font-weight: 600;
+        color: rgb(7, 153, 7);
+        margin-bottom: 10px;
+    }
+    
+    .product__in__shopping .promotion a {
+        color: green;
+        text-decoration: none;
+    }
+    
+    .promotion a i {
+        padding-right: 5px;
+    }
+    
+    .product__in__shopping .pay {
+        text-align: left;
+        color: gray;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .pay ul {
+        /* background-color: rgb(182, 182, 182); */
+        border: 0px solid black;
+        border-radius: 5px;
+    }
+    
+    .pay ul li {
+        padding: 5px 10px;
+    }
+    /* GIỚI THIỆU */
+    
+    .header__intro {
+        width: 100%;
+    }
+    
+    .header__intro img {
+        width: 400px;
+        height: 100px;
+        margin: 15px 0px 15px 35%;
+    }
+    
+    .header__intro img[name="GreenFood"] {
+        width: 250px;
+        height: 70px;
+    }
+    
+    .body__intro {
+        font-size: 16px;
+    }
+    
+    .body__intro li {
+        list-style: none;
+    }
+    
+    .body__intro span {
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(7, 161, 7);
+    }
+    
+    .body__intro ul[title="DiaChi"] {
+        padding-left: 0px;
+    }
+    /* TIN TỨC */
+    
+    .news {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+    
+    .news li {
+        list-style: none;
+    }
+    
+    .type__news ul {
+        border: 0px gray solid;
+        border-radius: 10px;
+        padding: 10px 0px;
+    }
+    
+    .type__news a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .type__news i {
+        margin-right: 10px;
+    }
+    
+    .special__news {
+        border: 1px rgb(215, 216, 209) solid;
+        border-radius: 10px;
+    }
+    
+    .special__news img {
+        width: 230px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    
+    .special__news ul {
+        padding: 0px;
+        font-size: 15px;
+    }
+    
+    .special__news li {
+        margin: 7px 6px;
+        padding: 5px 5px;
+    }
+    
+    h4 {
+        color: rgb(5, 151, 5);
+        font-weight: bold;
+    }
+    
+    h4[name="tintuc"] {
+        margin-left: 10px;
+    }
+    
+    .news__right img {
+        border-radius: 3px;
+        width: 250px;
+        height: 150px;
+    }
+    
+    .news__right {
+        font-size: 15px;
+    }
+    
+    .header__news {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .news__right ul {
+        padding: 0px 0px 0px 10px;
+    }
+    
+    .news__right li {
+        margin: 10px 0px;
+    }
+    
+    ul li i[class="fa fa-calendar"] {
+        margin-right: 5px;
+        font-size: 12px;
+        color: rgb(7, 153, 7);
+    }
+    
+    .date__news {
+        font-size: 13px;
+        font-weight: bold;
+        color: rgb(7, 153, 7);
+    }
+    /*    LIÊN HỆ    */
+    
+    .comunicate {
+        margin: 30px 0px;
+        padding: 0px;
+    }
+    
+    .info__comunicate ul {
+        padding: 0px;
+    }
+    
+    .info__comunicate li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .info__comunicate button {
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    .info__comunicate svg {
+        font-size: 20px;
+    }
+    
+    .info__comunicate p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .map {
+        border-top: 1px black solid;
+        border-bottom: 1px black solid;
+    }
+    
+    iframe[class="container-fluid"] {
+        padding: 0px;
+    }
+    /* HEADER close */
+    /*   USER open    */
+    
+    .user {
+        display: flex;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    
+    .user__left {
+        border: 0px rgb(100, 98, 98) solid;
+        font-size: 18px;
+        line-height: 40px;
+        margin-right: 40px;
+    }
+    
+    .user__left table {
+        width: 250px;
+    }
+    
+    .user__left table th {
+        padding: 15px 5px;
+    }
+    
+    .user__left table tr td {
+        border-bottom: solid 1px rgb(216, 216, 216);
+        padding: 7px 10px;
+    }
+    
+    .user__left img {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .user__left a {
+        color: rgb(112, 112, 112);
+        text-decoration: none;
+    }
+    
+    .user__left i {
+        margin-right: 10px;
+    }
+    
+    .user__right {
+        width: 100%;
+        margin: 0px 0px 0px 10px;
+        padding: 0px 0px;
+    }
+    
+    .user__right button {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 8px 50px;
+        margin-left: 170px;
+    }
+    
+    .user__right p {
+        font-size: 23px;
+        font-weight: bold;
+        color: rgb(6, 156, 6);
+    }
+    /* THÔNG TIN TAI KHOẢN */
+    
+    .frame__user {
+        width: 100%;
+        border-radius: 20px;
+        border: 0px solid black;
+        background-color: #f0f0f0;
+        margin: 20px 0px;
+        font-size: 17px;
+    }
+    
+    .frame__user div {
+        margin: 20px 0px;
+        font-weight: 500;
+    }
+    
+    .frame__user input {
+        width: 320px;
+        height: 37px;
+        border-radius: 5px;
+        outline: none;
+        border: 1px solid rgb(161, 161, 161);
+    }
+    
+    .frame__user__left div {
+        margin: 30px 15px;
+    }
+    
+    .frame__user span select {
+        width: 70px;
+        height: 30px;
+        border: 1px rgb(156, 154, 154) solid;
+        border-radius: 3px;
+    }
+    
+    .frame__user select {
+        width: 70px;
+        height: 35px;
+        border-radius: 5px;
+        margin: 0px 5px;
+    }
+    
+    .Gioi__tinh {
+        display: flex;
+        align-items: center;
+    }
+    
+    .Gioi__tinh input {
+        width: 40px;
+        height: 25px;
+        margin-right: 10px;
+    }
+    
+    .Gioi__tinh input[value="Nữ"] {
+        margin-left: 40px;
+    }
+    /* THÔNG BÁO CỦA TÔI */
+    
+    .bell {
+        /* background-color: rgb(236, 236, 236); */
+        width: 100%;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .bell img {
+        width: 120px;
+        height: 120px;
+    }
+    /* LỊCH SỬ MUA HÀNG */
+    
+    .user__right table {
+        background-color: #f0f0f0;
+        border-radius: 7px;
+    }
+    
+    .user__right td {
+        padding: 17px 13px;
+        font-size: 14px;
+    }
+    
+    .header_table tr td {
+        text-align: center;
+    }
+    
+    thead.header_table td {
+        font-weight: bold;
+        font-size: 16px;
+        color: green;
+        text-align: center;
+    }
+    /* SỐ ĐỊA CHỈ */
+    
+    .adress_defualt {
+        background-color: rgb(235, 233, 233);
+        padding: 20px;
+        border-radius: 7px;
+    }
+    
+    .adress_add form {
+        padding: 15px;
+    }
+    
+    .adress_add button {
+        margin: 30px 0px 10px 0px;
+    }
+    
+    .info_adress_add {
+        background-color: rgb(235, 233, 233);
+        border-radius: 7px;
+        padding: 15px 20px;
+    }
+    
+    .info_adress_add div[class="col-xl-3"] {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .info_adress_add div {
+        margin: 10px 0px;
+        align-items: center;
+    }
+    
+    .info_adress_add form div {
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        font-size: 15px;
+    }
+    
+    .info_adress_add input {
+        width: 350px;
+        height: 33px;
+        border-radius: 3px;
+        border: 1px solid rgb(177, 176, 176);
+    }
+    
+    .adress_add input[type="radio"] {
+        width: 25px;
+        margin: 0px;
+        margin-left: 50px;
+    }
+    
+    .adress_type span {
+        display: flex;
+        align-items: center;
+    }
+    
+    .info_adress_add textarea {
+        margin-left: 0px;
+        width: 350px;
+        border-radius: 3px;
+        border: 1px solid rgb(177, 176, 176);
+    }
+    
+    .info_adress_add form {
+        display: flex;
+        flex-direction: column;
+        font-size: 17px;
+    }
+    /* SẢN PHẨM YÊU THÍCH */
+    
+    .faverite_product {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .item_product {
+        border-bottom: 0px solid rgb(143, 142, 142);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        margin: 10px 0px;
+    }
+    
+    .item_product span {
+        padding: 0px;
+    }
+    
+    .item_product img {
+        width: 150px;
+        height: 130px;
+        padding: 5px 20px 5px 5px;
+    }
+    
+    .info_faverite_product {
+        width: 50%;
+        margin-right: 100px;
+    }
+    
+    .info_faverite_product div {
+        font-size: 13px;
+    }
+    
+    .info_faverite_product p {
+        font-weight: normal;
+        padding: 0px;
+        font-size: 13px;
+        color: black;
+    }
+    /* SẢN PHẨM ĐÃ XEM */
+    
+    .sent__product h4 {
+        color: rgb(5, 143, 5);
+    }
+    
+    .sent__product img {
+        width: 245px;
+        height: 200px;
+        padding: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .sent__product ul {
+        padding: 0px;
+        margin: 26px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .sent__product li {
+        list-style: none;
+        border: 1px solid rgb(218, 217, 217);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        border-radius: 7px;
+        margin: 0px;
+    }
+    
+    .sent__product li:hover {
+        box-shadow: 0px 10px 15px 0px rgb(207, 207, 207);
+        border: 0px solid rgb(233, 232, 232);
+    }
+    
+    .sent__product li a {
+        text-decoration: none;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 5px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .sent__product button {
+        margin: 0px 75px 5px 75px;
+        font-size: 14px;
+        padding: 2px 2px;
+    }
+    
+    .sent__product p {
+        font-size: 17px;
+        color: red;
+        font-weight: 650;
+        margin: 0px;
+    }
+    
+    .sent__product__specific li {
+        margin: 10px 10px 10px 6px;
+    }
+    
+    .hover__product {
+        position: relative;
+    }
+    
+    .hover__product__item {
+        display: none;
+        position: absolute;
+    }
+    
+    .sent__product li:hover .hover__product__item {
+        display: block;
+        /* top: 60px; */
+        padding-top: 60px;
+        background-color: #fff8;
+        height: 100%;
+    }
+    
+    button[name="button__in__main"] {
+        margin: 0px 0px;
+        padding: 5px 22px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    /* SẢN PHẨM */
+    
+    .mark__product a {
+        font-style: italic;
+        font-size: 22px;
+        font-weight: bold;
+        color: rgb(5, 150, 5);
+    }
+    
+    .detail__product {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .detail__product a {
+        text-decoration: none;
+    }
+    
+    .top_left_SP {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .img_SP img {
+        width: 410px;
+        height: 360px;
+        border: 1px solid rgb(199, 198, 198);
+        padding: 30px 30px;
+        border-radius: 5px;
+        margin-right: 30px;
+    }
+    
+    .interaction_SP {
+        margin: 0px 0px 0px 0px;
+        line-height: 40px;
+    }
+    
+    .state_SP {
+        font-size: 13px;
+        border: 1px solid black;
+        background-color: rgb(44, 204, 30);
+        padding: 2px;
+        padding-bottom: 3px;
+        font-weight: bold;
+        color: white;
+        border-radius: 3px;
+    }
+    
+    .button__buy {
+        border: 0px solid rgb(255, 255, 255);
+        background-color: white;
+        font-size: 25px;
+    }
+    
+    .button__buy button:checked {
+        border: 0px rgb(255, 255, 255) solid;
+        outline: none;
+    }
+    
+    .interaction_SP p {
+        padding: 20px 0px;
+        line-height: 20px;
+        font-size: 15px;
+        border-bottom: 1px solid rgb(204, 203, 203);
+        border-top: 1px solid rgb(201, 201, 201);
+        border-radius: 5px;
+    }
+    
+    .interaction_SP input {
+        border: 1px rgb(163, 163, 163) solid;
+        border-radius: 7px;
+        width: 43px;
+        height: 33px;
+        margin: 0px 15px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .mid_left_SP button {
+        padding: 4px 0px;
+        font-size: 17px;
+        color: white;
+        width: 110px;
+        margin: 15px 3px;
+    }
+    
+    .purchase__add {
+        display: flex;
+        flex-direction: row;
+    }
+    /* MÔ TẢ */
+    
+    .Description_class {
+        border: 1px rgb(179, 177, 177) solid;
+        border-radius: 5px;
+        padding: 15px;
+        margin: 15px 0px;
+        height: 200px;
+    }
+    /* THÔNG TIN */
+    
+    .Information_class table {
+        border: 1px gray solid;
+        border-radius: 5px;
+    }
+    
+    .Information_class th,
+    td {
+        padding: 7px 20px;
+    }
+    
+    .Information_class table tr:nth-child(odd) {
+        background-color: #eee;
+    }
+    
+    .Information_class table tr:nth-child(even) {
+        background-color: white;
+    }
+    /* ĐÁNH GIÁ */
+    
+    .Evaluate_class {
+        border: 1px rgb(179, 177, 177) solid;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 15px 0px;
+    }
+    
+    .Evaluate_class ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .Evaluate_class li {
+        list-style: none;
+        /* border-bottom: 1px rgb(206, 205, 205) solid; */
+        padding-right: 10px;
+    }
+    
+    .eva_web {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .user_evaluate {
+        margin-top: 10px;
+    }
+    
+    .user_eva_row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .user_eva_row i[class="fa fa-user fa-2x"] {
+        color: rgb(8, 155, 8);
+    }
+    
+    .user_eva_col {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 15px;
+    }
+    
+    .eva_content {
+        margin: 5px 10px 20px 0px;
+        font-size: 15px;
+    }
+    /* HOVER */
+    
+    .sub__menu__1 {
+        display: none;
+        z-index: 1;
+    }
+    
+    .sub__menu__1 ul {
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+        padding: 8px 10px;
+        font-size: 17px;
+        border-radius: 5px;
+        align-items: baseline;
+    }
+    
+    .sub__menu__1 ul a {
+        color: white;
+    }
+    
+    .sub__menu__1 .fa {
+        font-size: 18px;
+        margin-right: 8px;
+    }
+    
+    .sub__menu__1 ul li {
+        margin: 10px 0px;
+        list-style: none;
+    }
+    
+    .sub__menu__1 li:hover a {
+        color: orange;
+    }
+    
+    .menu__header li:hover .sub__menu__1 {
+        display: block;
+        position: absolute;
+        /* top: 30px;
+    left: 140px; */
+    }
+    
+    .header__bottom button[name="product__list"]:hover .sub__menu__1 {
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        width: 250px;
+    }
+    
+    .header__bottom button[name="product__list"]:hover .sub__menu__1 ul {
+        padding-left: 20px;
+    }
+    
+    .menu__header li[name="news"]:hover .sub__menu__1 {
+        display: block;
+        position: absolute;
+        width: 200px;
+        /* top: 30px;
+    left: 140px; */
+    }
+    /*      --- FOOTER ---      */
+    
+    footer {
+        background-color: rgb(4, 143, 4);
+    }
+    
+    footer ul {
+        padding: 0px;
+    }
+    
+    footer li {
+        list-style: none;
+    }
+    
+    .main__footer {
+        padding: 20px 0px;
+        color: white;
+        font-size: 18px;
+    }
+    
+    .main__footer h5 {
+        color: rgb(255, 123, 0);
+        font-weight: 600;
+    }
+    
+    .main__footer p {
+        font-size: 60px;
+        font-weight: 600;
+    }
+    
+    .main__footer a {
+        color: white;
+    }
+    
+    .main__footer li:hover {
+        list-style: disc;
+        color: rgb(255, 123, 0);
+    }
+    
+    .main__footer li:hover a {
+        color: rgb(255, 123, 0);
+    }
+    
+    .sign__up ul {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sign__up li {
+        margin: 0px 20px;
+    }
+    
+    .sign__up ul a {
+        font-weight: bold;
+    }
+    
+    footer .sign__up a[class="btn btn-danger"] {
+        padding: 10px 35px;
+    }
+    
+    footer .sign__up a[class="btn btn-primary"] {
+        padding: 10px 20px;
+    }
+    
+    .socical__button {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .socical__button a {
+        margin: 0px 15px;
+        border-radius: 40px;
+    }
+    
+    .socical__button img {
+        width: 40px;
+        height: 45px;
+        border-radius: 20px;
+    }
+    
+    .socical__button a[title="Facebook"] {
+        background-color: #3b5998;
+    }
+    
+    .socical__button a[title="Zalo"] {
+        background-color: #0068ff;
+    }
+    
+    .socical__button a[title="Gmail"] {
+        background-color: #e04c40;
+    }
+    
+    .copy__right {
+        background-color: rgb(5, 196, 5);
+        margin-top: 20px;
+        padding: 10px 0px;
+        text-align: center;
+        font-size: 18px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    /*   MODAL LAYOUT    */
+    
+    .modal__layout {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(141, 141, 141, 0.5);
+        z-index: 10;
+    }
+    
+    .over__layout {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(68, 67, 67, 0.5);
+    }
+    
+    .body__layout {
+        position: relative;
+        width: 500px;
+        height: 550px;
+        background-color: white;
+        margin: auto;
+        top: 50px;
+        border-radius: 5px;
+    }
+    
+    .body__layout .body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .body__layout div {
+        margin: 0px 0px;
+    }
+    
+    .body__bottom {
+        display: flex;
+    }
+    
+    .body__top span {
+        font-weight: bold;
+        color: rgb(3, 153, 3);
+        font-size: 30px;
+    }
+    
+    button[name="button-close"] {
+        float: right;
+    }
+    
+    div[class="gmail"] {
+        margin: 0px 30px;
+    }
+    
+    div[class="facebook"] {
+        margin: 0px 30px;
+    }
+    
+    .gmail img {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    
+    .facebook img {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    
+    .body__login {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .body__login button {
+        margin: 10px 0px;
+        font-size: 18px;
+    }
+    
+    .textbox input {
+        width: 360px;
+        height: 40px;
+        outline: none;
+        border: 0px solid black;
+        font-size: 19px;
+        margin: 10px 0px;
+    }
+    
+    .body__midle i {
+        margin-right: 20px;
+    }
+    
+    .body__midle input[type="submit"] {
+        width: 350px;
+        padding: 5px 40px;
+        margin: 20px 0px 0px 45px;
+        font-size: 19px;
+        font-weight: bold;
+        border: 1px solid rgb(33, 138, 33);
+        border-radius: 5px;
+        color: white;
+        background-color: #28a745;
+        text-align: center;
+    }
+    
+    .modal__layout hr {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .invalid {
+        color: red;
+        font-size: 12px;
+    }
+    
+    .product__like button {
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 4px 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .product__like .list__products img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .top_left_SP form input {
+        width: 200px;
+        height: 40px;
+        font-weight: bold;
+        /* margin: 20px 10px 20px 0px; */
+    }
+    /* DAT HANG */
+    
+    .information_customer {
+        font-size: 18px;
+    }
+    
+    .information_customer input {
+        border-radius: 5px;
+        outline: none;
+        border: 2px solid green;
+        margin-left: 30px;
+        height: 35px;
+    }
+    
+    .information_customer input[name="Gaden"] {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .take__order,
+    .address_ship {
+        font-size: 18px;
+    }
+    
+    .take__order input[name="Gaden"] {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .address__ship form input {
+        border: 2px solid green;
+        height: 35px;
+        width: 250px;
+        border-radius: 5px;
+        margin-right: 10px;
+        margin-top: 10px;
+        outline: none;
+    }
+    
+    .address__ship ::placeholder {
+        color: rgb(4, 4, 196);
+    }
+    /* ĐAT HANG THANH CONG */
+    
+    .check__green {
+        text-align: center;
+    }
+    
+    .check__green img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .button__after_order {
+        text-align: center;
+    }
+    
+    .button__after_order button {
+        font-size: 18px;
+        padding: 5px 20px;
+        margin: 5px 10px;
+        font-weight: bold;
+        outline: none;
+    }
+    
+    .add__sub__button {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        outline: none;
+        border: 0px solid black;
+        background-color: white;
+        font-size: 30px;
+        color: green;
+        padding: 10px;
+    }
+    /* TIM KIEM SAN PHAM */

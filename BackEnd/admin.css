@@ -1,0 +1,224 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.admin {
+    margin: 0px;
+    padding: 0px;
+}
+
+.module__left__top {
+    padding: 0px;
+    border-bottom-right-radius: 50px;
+}
+
+.module__left__top img {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.user__account {
+    background-color: rgb(5, 150, 5);
+}
+
+.user__name {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 10px 0px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.module__left__bottom {
+    background-color: rgb(4, 156, 4);
+    border-top-right-radius: 50px;
+    height: 100%;
+    color: white;
+    font-size: 19px;
+}
+
+.module__left__bottom ul {
+    padding: 10px 0px;
+}
+
+.module__left__bottom li {
+    padding: 15px 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.module__left__bottom a {
+    color: white;
+}
+
+.module__left__bottom li i {
+    margin-right: 15px;
+    font-size: 24px;
+}
+
+.module__left__bottom a:hover {
+    font-size: 20px;
+    color: rgb(245, 144, 61);
+    text-decoration: none;
+}
+
+.module__left__bottom .selected {
+    font-size: 22px;
+    font-weight: bold;
+    color: orange;
+}
+
+
+/* MODULE RIGHT */
+
+.module__right {
+    background-color: rgb(255, 255, 255);
+}
+
+.right__header {
+    padding: 15px 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.right__header ul {
+    display: flex;
+    padding-right: 30px;
+}
+
+.right__header li {
+    margin: 0px 20px;
+}
+
+.right__header a {
+    color: rgb(3, 155, 3);
+}
+
+.header__icon ul {
+    padding-left: 75px;
+}
+
+.right__header form {
+    display: flex;
+}
+
+.right__header form input {
+    outline: none;
+    border: 0px black solid;
+    border-bottom: 2px solid green;
+    background-color: rgb(231, 231, 231);
+    color: green;
+}
+
+::-webkit-input-placeholder {
+    color: green;
+}
+
+h2 {
+    color: rgb(3, 148, 3);
+}
+
+.right__header form i {
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 45px;
+    color: white;
+    background-color: rgb(4, 153, 4);
+}
+
+
+/* RIGHT MAIN */
+
+.right__main {
+    margin-top: 20px;
+}
+
+.add__button {
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+.right__main table {
+    margin-top: 20px;
+}
+
+.layout__center {
+    text-align: center;
+}
+
+.right__main table th,
+td {
+    border: 0px solid black;
+    padding: 5px 35px;
+}
+
+.border__right {
+    border-right: 1px solid white;
+}
+
+.right__main table th {
+    font-size: 20px;
+    background-color: rgb(3, 150, 3);
+    color: white;
+    border-radius: 0px;
+}
+
+.right__main table td {
+    border-bottom: 1px solid green;
+}
+
+.button__sp {
+    padding: 5px;
+}
+
+.add__catelogy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add__catelogy input[type="text"] {
+    height: 50px;
+    width: 650px;
+    margin: 20px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: rgba(10, 197, 10, 0.6) solid 5px;
+}
+
+.add__catelogy form {
+    text-align: center;
+}
+
+.add__catelogy form input[type="submit"] {
+    margin-left: 0px;
+}
+
+
+/* .add__catelogy input:valid {
+    border: 3px green solid;
+} */
+
+.add__catelogy ::-webkit-input-placeholder {
+    color: gray;
+}
+
+.save {
+    margin-left: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
